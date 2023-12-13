@@ -1,4 +1,4 @@
-algoritmo "media aritimetica"
+algoritmo "media aritmetica"
 
 var
 N1,N2,N3,M:real
