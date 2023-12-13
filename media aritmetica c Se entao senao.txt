@@ -1,0 +1,33 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 13/12/2023
+// Seção de Declarações Desenvolva um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre,
+//calcule a média (aritmética) e informe o nome e sua menção aprovado (média >= 7), reprovado (média <= 5) ou em recuperação (média entre 5,1 a 6,9).
+var
+aluno:caracter
+p1,p2,p3,media:real
+
+inicio
+escreval("digite o nome do aluno")
+leia(aluno)
+escreval("digite a nota da prova 1")
+leia(p1)
+escreval("digite a nota da prova 2")
+leia(p2)
+escreval("digite a nota da prova 3")
+leia(p3)
+media<-(p1+p2+p3)/3
+escreval("resultado da nota final =", Media)
+
+se media >= 7 entao
+ escreval("ALUNO APROVADO!")
+senao
+ se media <= 5 entao
+ escreval("ALUNO REPROVADO!")
+ senao
+ escreval("ALUNO EM RECUPERAÇÃO;")
+ fimse
+fimse
+fimalgoritmo
+
